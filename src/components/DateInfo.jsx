@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { fetchFruits } from '../redux/fruitSlice';
+import dollar from '../assets/dolar.svg';
 
 const Date = () => {
   const dateList = useSelector((state) => state.fruit);
@@ -22,45 +23,45 @@ const Date = () => {
 
   return (
     <div data-testid="detailed-information">
+      <div className="intro">
+        <img src={dollar} alt="dollar" className="dollar2" />
+        <h1>
+          Year
+          {' '}
+          {details.calendarYear}
+        </h1>
+      </div>
       <h2>
         Detailed information:
-        <br />
-        {date}
       </h2>
       {/* Mostrar detalles específicos */}
       {details && (
         <div className="details">
           <p>
             Detailed date:
-            <br />
             {details.date}
           </p>
           <p>
-            Period
-            <br />
+            Period:
             {details.period}
           </p>
           <p>
             Income:
-            <br />
             $
             {details.grossProfit}
           </p>
           <p>
             Expenses:
-            <br />
             $
             {details.operatingExpenses}
           </p>
           <p>
             Income interest:
-            <br />
             $
             {details.interestIncome}
           </p>
           <p>
             Expenses interest:
-            <br />
             $
             {details.interestExpense}
           </p>

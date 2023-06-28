@@ -121,6 +121,19 @@ input {
   pointer-events: none;
 }
 
+.dollar2 {
+  width: 120px;
+  filter: invert(28%) sepia(70%) saturate(982%) hue-rotate(295deg) brightness(96%) contrast(91%);
+  pointer-events: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
 .date:nth-child(1),
 .date:nth-child(4),
 .date:nth-child(5) {
@@ -135,6 +148,8 @@ input {
 }
 
 .details p {
+  display: flex;
+  justify-content: space-around;
   padding: 30px;
   text-align: center;
   width: 100%;
@@ -162,4 +177,7 @@ input {
 
 :-ms-input-placeholder {
   color: white;
+}
+.none {
+  display: none;
 }
