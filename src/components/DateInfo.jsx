@@ -21,25 +21,50 @@ const Date = () => {
   const details = dateList.fruits.find((fruit) => fruit.calendarYear === date);
 
   return (
-    <div>
+    <div data-testid="detailed-information">
       <h2>
-        Información detallada para el año:
+        Detailed information:
         <br />
         {date}
       </h2>
       {/* Mostrar detalles específicos */}
       {details && (
-        <div>
+        <div className="details">
+          <p>
+            Detailed date:
+            <br />
+            {details.date}
+          </p>
+          <p>
+            Period
+            <br />
+            {details.period}
+          </p>
           <p>
             Income:
             <br />
+            $
             {details.grossProfit}
           </p>
           <p>
-            Gastos:
+            Expenses:
             <br />
-            {details.expenses}
+            $
+            {details.operatingExpenses}
           </p>
+          <p>
+            Income interest:
+            <br />
+            $
+            {details.interestIncome}
+          </p>
+          <p>
+            Expenses interest:
+            <br />
+            $
+            {details.interestExpense}
+          </p>
+
           {/* Mostrar otros detalles */}
         </div>
       )}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { filterByYear, fetchFruits } from '../redux/fruitSlice';
+import { fetchFruits } from '../redux/fruitSlice';
 
 const DateFilter = () => {
   const [selectedYear, setSelectedYear] = useState('');
@@ -16,26 +16,27 @@ const DateFilter = () => {
     setSelectedYear(e.target.value);
   };
 
-  const handleFilter = () => {
-    dispatch(filterByYear(selectedYear));
-  };
-
   const filteredFruits = selectedYear
     ? fruitList.filter((fruit) => fruit.calendarYear.includes(selectedYear))
     : fruitList;
 
   return (
-    <div>
-      <h3>Filter by Year:</h3>
-      <input type="text" value={selectedYear} onChange={handleYearChange} />
-      <button type="button" onClick={handleFilter}>
-        Filter
-      </button>
-
-      <ul>
+    <div className="dates">
+      <div className="input">
+        <input type="text" value={selectedYear} onChange={handleYearChange} />
+      </div>
+      <h2>Company Financial Staments By Year</h2>
+      <ul className="date-list">
         {filteredFruits.map((fruit) => (
-          <li key={fruit.calendarYear}>
-            <Link to={`/date/${fruit.calendarYear}`}>{fruit.calendarYear}</Link>
+          <li key={fruit.calendarYear} className="date">
+            <Link className="link" to={`/date/${fruit.calendarYear}`}>
+              <p>{fruit.calendarYear}</p>
+              <p>{fruit.reportedCurrency}</p>
+              <p>
+                $
+                {fruit.grossProfit}
+              </p>
+            </Link>
           </li>
         ))}
       </ul>
