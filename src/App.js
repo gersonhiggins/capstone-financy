@@ -13,7 +13,7 @@ function App() {
           <Navbar />
           <div className="container">
             <Routes>
-              <Route path="/" element={<Home />} exact />
+              <Route path="/capstone-financy" element={<Home />} exact />
               <Route path="/date/:date" element={<Date />} />
             </Routes>
           </div>
