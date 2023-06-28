@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar matches snapshot 1`] = `
+<nav>
+  <ul>
+    <li
+      className="nav"
+    >
+      <a
+        className=""
+        exact={true}
+        href="/capstone-financy"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <h1>
+        Company Financy Statement
+      </h1>
+      <div>
+        <img
+          alt="microphone"
+          className="micro"
+          src="microphone.png"
+        />
+        <img
+          alt="config"
+          className="config"
+          src="config.png"
+        />
+      </div>
+    </li>
+  </ul>
+</nav>
+`;

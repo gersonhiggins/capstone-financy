@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #e84a88;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 10px 3% 0 3%;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: medium;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #cf4378;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+li {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.nav div {
+  display: flex;
+  gap: 15px;
+  filter: invert(91%) sepia(98%) saturate(28%) hue-rotate(253deg) brightness(107%) contrast(100%);
+}
+
+.container {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fd5294;
+  padding: 15px 0;
+}
+
+input {
+  background-color: #fd5294;
+  color: white;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200px;
+  padding: 15px 0;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.arrow {
+  width: 20px;
+  filter: invert(91%) sepia(98%) saturate(28%) hue-rotate(253deg) brightness(107%) contrast(100%);
+}
+
+.content p {
+  margin: 0;
+}
+
+.dollar {
+  position: absolute;
+  width: 120px;
+  filter: invert(28%) sepia(70%) saturate(982%) hue-rotate(295deg) brightness(96%) contrast(91%);
+  pointer-events: none;
+}
+
+.dollar2 {
+  width: 120px;
+  filter: invert(28%) sepia(70%) saturate(982%) hue-rotate(295deg) brightness(96%) contrast(91%);
+  pointer-events: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.date:nth-child(1),
+.date:nth-child(4),
+.date:nth-child(5) {
+  background-color: #cf4378;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details p {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  color: white;
+}
+
+.details p:nth-child(even) {
+  background-color: #cf4378;
+}
+
+.micro,
+.config {
+  width: 20px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+.none {
+  display: none;
+}
