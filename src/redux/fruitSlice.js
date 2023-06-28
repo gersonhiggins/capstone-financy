@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const ApiId = 'https://financialmodelingprep.com/api/v3/income-statement/AAPL?limit=120&apikey=a4128e3f94d68f803ff160887a9c29ad';
+const ApiId = 'https://financialmodelingprep.com/api/v3/income-statement/AAPL?limit=120&apikey=25513038880416a870400d19e9f6c4f7';
 
 export const fetchFruits = createAsyncThunk('fruit/fetchFruits', async () => {
   const response = await axios.get(ApiId);
