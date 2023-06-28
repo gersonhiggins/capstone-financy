@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/capstone-financy/static/css/main.5cea086b.css",
-    "main.js": "/capstone-financy/static/js/main.81f97515.js",
+    "main.css": "/capstone-financy/static/css/main.0bddce72.css",
+    "main.js": "/capstone-financy/static/js/main.888eec46.js",
     "static/js/787.12853204.chunk.js": "/capstone-financy/static/js/787.12853204.chunk.js",
+    "static/media/config.png": "/capstone-financy/static/media/config.06d13e8d5acc690c6744.png",
+    "static/media/dolar.svg": "/capstone-financy/static/media/dolar.ee2d9cec0a8c17717f8fa2403c92e256.svg",
     "index.html": "/capstone-financy/index.html",
-    "main.5cea086b.css.map": "/capstone-financy/static/css/main.5cea086b.css.map",
-    "main.81f97515.js.map": "/capstone-financy/static/js/main.81f97515.js.map",
+    "static/media/arrow.svg": "/capstone-financy/static/media/arrow.cc80cc126c6933d153c7db0a6c9cc37a.svg",
+    "main.0bddce72.css.map": "/capstone-financy/static/css/main.0bddce72.css.map",
+    "main.888eec46.js.map": "/capstone-financy/static/js/main.888eec46.js.map",
     "787.12853204.chunk.js.map": "/capstone-financy/static/js/787.12853204.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cea086b.css",
-    "static/js/main.81f97515.js"
+    "static/css/main.0bddce72.css",
+    "static/js/main.888eec46.js"
   ]
 }
