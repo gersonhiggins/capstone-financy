@@ -57,6 +57,7 @@ CFS is a website for showing up all important information about finances all ove
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > You can see the Live Demo [here.](https://gersonhiggins.github.io/capstone-financy/)
+> Intro video About Page [here.](https://www.loom.com/share/f6de1aee17a74a84935d8aa6c14ec192) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
