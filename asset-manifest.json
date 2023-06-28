@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/capstone-financy/static/css/main.5cea086b.css",
-    "main.js": "/capstone-financy/static/js/main.797a125a.js",
+    "main.js": "/capstone-financy/static/js/main.81f97515.js",
     "static/js/787.12853204.chunk.js": "/capstone-financy/static/js/787.12853204.chunk.js",
     "index.html": "/capstone-financy/index.html",
     "main.5cea086b.css.map": "/capstone-financy/static/css/main.5cea086b.css.map",
-    "main.797a125a.js.map": "/capstone-financy/static/js/main.797a125a.js.map",
+    "main.81f97515.js.map": "/capstone-financy/static/js/main.81f97515.js.map",
     "787.12853204.chunk.js.map": "/capstone-financy/static/js/787.12853204.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cea086b.css",
-    "static/js/main.797a125a.js"
+    "static/js/main.81f97515.js"
   ]
 }
